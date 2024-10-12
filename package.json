@@ -42,6 +42,7 @@
     "@angular/router": "^18.0.6",
     "@azure/msal-browser": "^3.24.0",
     "@googlemaps/js-api-loader": "^1.16.8",
+    "@msgpack/msgpack": "^3.0.0-beta2",
     "socket.io-client": "^4.7.5",
     "@tensorflow/tfjs": "^4.21.0",
     "@tinkoff/angular-contenteditable-accessor": "^2.0.0",

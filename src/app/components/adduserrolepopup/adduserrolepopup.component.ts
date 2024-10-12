@@ -2,7 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { MatDialogRef } from "@angular/material/dialog";
 import { ModalService } from "src/services/modal.service";
-import { MyConstants } from "@ejfdelgado/ejflab-common/src/MyConstants.js";
+import { MyConstants } from "@ejfdelgado/ejflab-common/src/MyConstants";
 import { AuthorizationData } from "../authorizationpopup/authorizationpopup.component";
 
 @Component({
