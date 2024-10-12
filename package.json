@@ -1,15 +1,12 @@
 {
-  "name": "@ejfdelgado/ejflab-fromt",
-  "version": "1.1.0",
+  "name": "@ejfdelgado/ejflab-front",
+  "version": "1.2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ejfdelgado/ejflab-fromt.git"
+    "url": "git+https://github.com/ejfdelgado/ejflab-front.git"
   },
   "description": "",
   "scripts": {
-    "angular": "ng serve --host \"nodeserver\" --disable-host-check",
-    "angular_local": "ng serve",
-    "build_local": "ng build --output-hashing=bundles",
     "mylogin": "npm login",
     "mypublish": "npm publish --access=public"
   },
