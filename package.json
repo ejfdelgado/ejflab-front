@@ -1,0 +1,68 @@
+{
+  "name": "@ejfdelgado/ejflab-fromt",
+  "version": "1.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejfdelgado/ejflab-fromt.git"
+  },
+  "description": "",
+  "scripts": {
+    "angular": "ng serve --host \"nodeserver\" --disable-host-check",
+    "angular_local": "ng serve",
+    "build_local": "ng build --output-hashing=bundles",
+    "mylogin": "npm login",
+    "mypublish": "npm publish --access=public"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "ejfdelgado",
+  "license": "ISC",
+  "private": false,
+  "peerDependencies": {
+    "@angular/common": "^18.0.6",
+    "@angular/core": "^18.0.6",
+    "tslib": "^2.6.3"
+  },
+  "devDependencies": {
+    "@ejfdelgado/ejflab-common": "1.2.0",
+    "@angular-devkit/build-angular": "^18.0.7",
+    "@angular/animations": "^18.0.6",
+    "@angular/cdk": "^18.0.6",
+    "@angular/cli": "^18.0.7",
+    "@angular/common": "^18.0.6",
+    "@angular/compiler": "^18.0.6",
+    "@angular/compiler-cli": "^18.0.6",
+    "@angular/core": "^18.0.6",
+    "@angular/fire": "^18.0.1",
+    "@angular/forms": "^18.0.6",
+    "@angular/material": "^18.0.6",
+    "@angular/platform-browser": "^18.0.6",
+    "@angular/platform-browser-dynamic": "^18.0.6",
+    "@angular/router": "^18.0.6",
+    "@azure/msal-browser": "^3.24.0",
+    "@googlemaps/js-api-loader": "^1.16.8",
+    "socket.io-client": "^4.7.5",
+    "@tensorflow/tfjs": "^4.21.0",
+    "@tinkoff/angular-contenteditable-accessor": "^2.0.0",
+    "@types/crypto-js": "^4.2.2",
+    "@types/google.maps": "^3.55.11",
+    "@types/jasmine": "~5.1.4",
+    "@types/latlon-geohash": "^2.0.3",
+    "@types/md5": "^2.3.5",
+    "@types/qrcode": "^1.5.5",
+    "@types/recordrtc": "^5.6.14",
+    "@types/three": "^0.166.0",
+    "@types/uuid": "^10.0.0",
+    "@types/wavesurfer.js": "^6.0.12",
+    "@types/webrtc": "^0.0.43",
+    "firebase-tools": "^13.13.1",
+    "latlon-geohash": "^2.0.0",
+    "ngx-material-timepicker": "^13.1.1",
+    "ngx-webcam": "^0.4.1",
+    "qrcode": "^1.5.4",
+    "three": "^0.169.0",
+    "typescript": "^5.4.5",
+    "zone.js": "~0.14.7"
+  }
+}

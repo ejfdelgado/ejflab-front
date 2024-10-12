@@ -1,0 +1,69 @@
+{
+    "home": {
+        "loginbutton": "Provider Login",
+        "guide": "Enter your clinician's room name:",
+        "inputplaceholder": "clinician's",
+        "guidebutton": "Enter Room",
+        "logout": "Logout"
+    },
+    "room": {
+        "popup1": {
+            "welcome": "Welcome!",
+            "guide": "Please check in below to let ${sharedState.provider.title} ${sharedState.provider.name} ${sharedState.provider.lastname} know you are here",
+            "inputplaceholder": "Enter your first and lastname",
+            "cta": "Check In",
+            "errors": {
+                "name_required": "The field above is required",
+                "max_name_length": "The user name should be shortest than ${MAX_USERNAME_LENGTH} characters"
+            }
+        },
+        "left": {
+            "patient_queue": "PATIENT QUEUE",
+            "general": "GENERAL",
+            "available": "AVAILABLE",
+            "my_account": "My account",
+            "logout": "Logout",
+            "start_call": "Start Call"
+        },
+        "panelright": {
+            "state": {
+                "off": "OFFLINE",
+                "on": "ONLINE"
+            },
+            "detail": {
+                "off": "Your call will start soon",
+                "on": "Your call will start soon"
+            }
+        },
+        "base": {
+            "welcome": "Welcome",
+            "invite_expl": "To invite someone to your waiting room, share this link:",
+            "invite": "Invite via",
+            "sms": "Text message",
+            "email": "Email",
+            "copy": "Copy",
+            "room": "Room"
+        },
+        "mail": {
+            "title": "Invite by email",
+            "subject": "Patient email",
+            "subject_required": "The email is required",
+            "subject_invalid": "Invalid email",
+            "subject_limit": "Too many emails",
+            "date": "Date",
+            "time": "Time",
+            "language": "Language",
+            "text": "Invitation",
+            "btn_cancel": "Cancel",
+            "btn_send": "Send Email",
+            "alert_err_title": "Notification",
+            "alert_err_text": "Please verify the fields"
+        }
+    },
+    "chat": {
+        "popup_title": "Chat with ${name}",
+        "send_button": "Send",
+        "placeholder": "Write your message...",
+        "max_length": "You have reached the maximum number of characters ${MAX_CHAT_LENGTH}"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "home": {
+        "loginbutton": "Inicio de sesión del proveedor",
+        "guide": "Ingresa el nombre de la habitación de tu médico:",
+        "inputplaceholder": "¿Con quién te reunirás acá?",
+        "guidebutton": "Entrar a la sala",
+        "logout": "Cerrar sesión"
+    },
+    "room": {
+        "popup1": {
+            "welcome": "¡Bienvenido!",
+            "guide": "Ahora verifica para informar a ${sharedState.provider.title} ${sharedState.provider.name} ${sharedState.provider.lastname} que estás aquí",
+            "inputplaceholder": "Escribe tu nombre y apellido",
+            "cta": "Registrarse",
+            "errors": {
+                "name_required": "El campo es requerido",
+                "max_name_length": "El nombre debe tener menos de ${MAX_USERNAME_LENGTH} caracteres"
+            }
+        },
+        "left": {
+            "patient_queue": "PACIENTES EN ESPERA",
+            "general": "GENERAL",
+            "available": "DISPONIBLE",
+            "my_account": "Mi cuenta",
+            "logout": "Cerrar sesión",
+            "start_call": "Iniciar llamada"
+        },
+        "panelright": {
+            "state": {
+                "off": "FUERA DE LINEA",
+                "on": "DISPONIBLE"
+            },
+            "detail": {
+                "off": "Tu llamada comenzará pronto",
+                "on": "Tu llamada comenzará pronto"
+            }
+        },
+        "base": {
+            "welcome": "Bienvenido",
+            "invite_expl": "Comparte el enlace para envitar a alguien a la sala de espera:",
+            "invite": "Invitar usando",
+            "sms": "Mensaje de texto",
+            "email": "Correo",
+            "copy": "Copiar",
+            "room": "Sala"
+        },
+        "mail": {
+            "title": "Invitar por correo electrónico",
+            "subject": "Correo electrónico del paciente",
+            "subject_required": "El correo es requerido.",
+            "subject_invalid": "Correos inválidos",
+            "subject_limit": "Demasiados destinatarios",
+            "date": "Fecha",
+            "time": "Hora",
+            "language": "Idioma",
+            "text": "Invitación",
+            "btn_cancel": "Cancelar",
+            "btn_send": "Enviar Mensaje",
+            "alert_err_title": "Notificación",
+            "alert_err_text": "Por favor verifica los campos"
+        }
+    },
+    "chat": {
+        "popup_title": "Chat con ${name}",
+        "send_button": "Enviar",
+        "placeholder": "Escribe tu mensaje...",
+        "max_length": "Máximo se pueden escribir ${MAX_CHAT_LENGTH} caracteres"
+    }
+}
