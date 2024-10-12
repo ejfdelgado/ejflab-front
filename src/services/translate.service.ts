@@ -9,7 +9,7 @@ import { MyTemplate } from '@ejfdelgado/ejflab-common/src/MyTemplate';
 export class TranslateService {
   COOKIE_NAME = 'noglang';
   keyPromises: any = {};
-  renderer: MyTemplate;
+  renderer: any;
   constructor(private httpService: HttpService) {
     this.renderer = new MyTemplate();
   }

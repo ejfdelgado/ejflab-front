@@ -4,8 +4,6 @@
   "compilerOptions": {
     "outDir": "./out-tsc/app",
     "allowJs": true,
-    "checkJs": false,
-    "maxNodeModuleJsDepth": 3,
     "allowSyntheticDefaultImports": true
   },
   "files": ["src/main.ts", "src/polyfills.ts"],
